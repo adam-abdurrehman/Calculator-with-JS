@@ -28,7 +28,27 @@ body{
 }
 
 .calc-box{
-    width: 30vw;
+    width: 20vw;
     height: auto;
     border: 1px solid black;
+    padding-block: 15px;
+    border-radius: 8px;
+    flex-direction: column;
+    gap: 10px;
+}
+.output-box,.btns-box{
+    width: 90%;
+    border: 1px solid black;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+.output-box{
+    height: 10vh;
+}
+
+.btns-box{
+    height: 30vh;
 }
